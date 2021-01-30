@@ -8,10 +8,13 @@ Lastly a social media page so fans will never miss anything I put out, whether i
 
 ## UX
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+- As customer I want to see what games you have available.
+- As a fan I want to see what you’re working on next, and how far along that game is.
+- As a fan I would like to see all your social media in one place, so I don’t miss anything!
+- As a customer I would like to have a way to support the development.
+- As a customer I would like to be able to leave a review.
+- As a fellow developer I would like to discuss ideas for future projects.
 
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
