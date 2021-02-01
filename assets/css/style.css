@@ -1,8 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/* ----------------------------------------- Colors */
 
 .bg-color-name {
-    background-color: #614632;
+    background-color: #801515;
 }
+
+.ui-menu-color-home {
+    background-color: #F60A0A;
+}
+
+.ui-menu-color-games {
+    background-color: #F6910A;
+}
+
+.ui-menu-color-pay {
+    background-color: #10619F;
+}
+
+.ui-menu-color-contact {
+    background-color: #08C508;
+}
+
+/* ----------------------------------------- Heading */
 
 header {
     margin: 0;
@@ -21,4 +41,33 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    margin-top: 50px;
+    color: #FFAAAA ;
+}
+
+.title {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #550000 ;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
 }
