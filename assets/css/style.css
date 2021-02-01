@@ -33,7 +33,8 @@ header {
 }
 
 .logo {
-    background: url("../images/hamsoft-logo-2.png");
+    background: url("../images/hamsoft-logo-3.png");
+    background-color: #801515;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
