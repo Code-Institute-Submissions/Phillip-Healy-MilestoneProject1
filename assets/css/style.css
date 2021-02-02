@@ -22,6 +22,9 @@
     background-color: #08C508;
 }
 
+.main-content {
+    background-color: #FFAAAA;
+}
 
 .inline-block {
     display: inline-block;
@@ -256,4 +259,20 @@ footer {
   transform: scaleX(1);
   -webkit-transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
   transition-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+
+/* ----------------------------------------- main content */
+
+.who-we-are {
+    color: #550000;
+}
+
+.who-we-are h2 {
+    font-family: "Oxygen", sans-serif;
+    font-size: 32px;
+}
+
+.who-we-are p {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
 }
