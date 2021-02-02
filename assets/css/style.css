@@ -277,4 +277,10 @@ footer {
 .who-we-are p {
     font-family: "Ubuntu", sans-serif;
     font-size: 18px;
+    margin-top: 12px;
+    margin-bottom: 40px;
+}
+
+.main-icon {
+    font-size: 32px;
 }
