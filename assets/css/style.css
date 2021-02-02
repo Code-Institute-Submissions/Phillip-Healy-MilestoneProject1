@@ -23,7 +23,7 @@
 }
 
 .main-content {
-    background-color: #FFAAAA;
+    background-color: #F5F3F4;
 }
 
 .inline-block {
@@ -66,7 +66,7 @@ header {
 }
 
 .logo {
-    background: url("../images/hamsoft-logo-3.png");
+    background: url("../images/hamsoft-logo-4.png");
     background-color: #801515;
     background-position: center;
     background-repeat: no-repeat;
@@ -93,6 +93,7 @@ header {
     margin-top: 20px;
     margin-bottom: 40px;
     color: #550000 ;
+    text-indent: 70px;
 }
 
 .list-inline-item:not(:last-child) {
@@ -270,6 +271,7 @@ footer {
 .who-we-are h2 {
     font-family: "Oxygen", sans-serif;
     font-size: 32px;
+    margin-top: 25px;
 }
 
 .who-we-are p {
