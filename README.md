@@ -3,9 +3,8 @@
 The idea is that this is a brand page for my side project: **Hammock Software Games**.
 I will have a landing page discussing who I am and what kind of developer I am, what engine/languages I use etc.
 I will implement a page showcasing the game I have released, as well as games in development.
+I will create a page for supporters to see how to donate or collaborate.
 I will put in a contact form with options for submitting reviews, seeking information, or for submitting collaboration/ideas.
-Lastly a social media page so fans will never miss anything I put out, whether it's dev diaries on youtube, updates to the games on Facebook, or my github for collaboration and information!
-
 ## UX
 
 - As customer I want to see what games you have available.
@@ -17,59 +16,67 @@ Lastly a social media page so fans will never miss anything I put out, whether i
 
 
 ## Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+
 
 ### Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+
+A landing page to allow users to see who I am and the reason I do what I do.
+A game showcase page to allow users to see released and upcoming games.
+A page for supporters to see how to donate or collaborate.
+A contact form page for users to review, request, or suggest collaboration.
 
 
 ### Features Left to Implement
-Another feature idea
+
+Embed demo video of game in action.
+
 ## Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, 
-provide its name, a link to its official site and a short sentence of why it was used.
+
+#### HTML5
+Basic web language.
+
+#### CSS
+Basic styling language.
+
+#### Boostrap 4 
+https://getbootstrap.com/docs/4.4/getting-started/introduction/ Framework for powerful web development.
+
+#### Font Awesome 
+https://fontawesome.com/ Icon toolkit.
 
 #### JQuery
 The project uses JQuery to simplify DOM manipulation.
+
 ## Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. 
-Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the 
-project providing an easy and straightforward way for the users to achieve their goals.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+#### Links
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. 
-A particularly useful form for describing your testing process is via scenarios, such as:
+All links have been tested on each page to make sure they are live and target correctly.
 
-Contact form:
+#### Contact form:
 
 - Go to the "Contact Us" page.
 - Try to submit the empty form and verify that an error message about the required fields appears
 - Try to submit the form with an invalid email address and verify that a relevant error message appears
 - Try to submit the form with all inputs valid and verify that a success message appears.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+#### Responsive Design
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+I made sure that for tablets and mobile the site would collapse and flow for the various screen sizes. 
+Icons are dropped to avoid crowding, and columns are made widers and stack on top of each other with new margins to allow for readability. 
+Images also move and resize to not block content or overflow off the screen.
 
 ## Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+#### Github Pages
+I deployed this project on Github Pages, the process was to simply follow the settings and it practically launched itself. 
 
 ## Credits
 ### Content
-The text for section Y was copied from the Wikipedia article Z
+Keeping the footer at the bottom of the page even when content wasn't large enough came from https://dev.to/domysee/keeping-the-footer-at-the-bottom-with-css-flexbox-5h5f
+All other code is learned from Code Institute or trial and error.
 ### Media
-The photos used in this site were obtained from ...
+The photos used in this site were obtained from myself. 
+I created all images and customised them to suit the format.
 ### Acknowledgements
-I received inspiration for this project from X
+I was guided in the creative process of this project by my mentor; Ignatius Ukwuoma
