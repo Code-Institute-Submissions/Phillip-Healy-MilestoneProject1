@@ -362,7 +362,62 @@ button[type="submit"]:hover {
 }
 
 /* ----------------------------------------- Responsive elements */
+/* ----------------------------------------- Tablet */
 
 @media screen and (max-width: 1393px) {
-    
+    .logo {
+        display: none;
+    }
+
+    .main-icon {
+        display: none;
+    }
+
+    .general-sub {
+        display: block;
+        text-align: center;
+    }
+
+    .righted {
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+        width: 100%;
+    }
+
+    .title {
+        text-indent: 0;
+        text-align: center;
+    }
+
+    .name {
+        text-align: center;
+    }
+
+    .heading {
+        margin: 0;
+    }
+
+    .top-head {
+        text-align: justify;
+    }
+}
+
+/* ----------------------------------------- Mobile */
+
+@media screen and (max-width: 943px) {
+    .viral-img {
+        width: 360px;
+    }
+
+    .mobile-split {
+        max-width: 80%;
+    }
+
+    .game-showcase {
+        display: block;
+        text-align: right;
+    }
 }
