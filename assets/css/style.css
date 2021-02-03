@@ -55,7 +55,7 @@ article {
     align-items: stretch;
 }
 
-/* ----------------------------------------- Heading */
+/* ----------------------------------------- Header */
 
 header {
     margin: 0;
@@ -147,7 +147,7 @@ header {
     text-decoration: underline;
 }
 
-/* ----------------------------------------- Main */
+/* ----------------------------------------- footer to bottom */
 
 main {
     flex-grow: 1;
@@ -288,6 +288,7 @@ footer {
 
 .main-icon {
     font-size: 32px;
+    margin-top: 20px;
 }
 
 .main-heading {
@@ -296,6 +297,8 @@ footer {
     font-weight: 600;
     margin-top: 20px;
 }
+
+/* ----------------------------------------- Game page */
 
 .viral-img {
     background: url("../images/Preview.png");
@@ -319,3 +322,42 @@ footer {
     font-size: 32px;
     font-weight: 600;
 }
+
+/* ----------------------------------------- contact page */
+
+.contact-heading {
+    margin: 20px 0;
+    color: #550000;
+    font-family: "Oxygen", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.contact-sub-heading {
+    font-family: "Ubuntu", sans-serif;
+    color: #550000;
+    font-size: 18px;
+    margin-bottom: 18px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 18px;
+    margin-bottom: 25px;
+    background-color: #801515;
+    color: #FFAAAA;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #053961;
+}
+
