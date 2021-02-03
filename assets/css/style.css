@@ -361,3 +361,8 @@ button[type="submit"]:hover {
     background-color: #053961;
 }
 
+/* ----------------------------------------- Responsive elements */
+
+@media screen and (max-width: 1393px) {
+    
+}
