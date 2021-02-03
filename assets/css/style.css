@@ -295,3 +295,26 @@ footer {
     font-size: 32px;
     font-weight: 600;
 }
+
+.viral-img {
+    background: url("../images/Preview.png");
+    background-color: #801515;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    min-height: 280px;
+    margin: 30px 0;
+}
+
+.game-showcase {
+    border: solid 4px #550000;
+    border-bottom: 0;
+}
+
+.game-heading {
+    margin: 30px;
+    font-family: "Oxygen", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+}
