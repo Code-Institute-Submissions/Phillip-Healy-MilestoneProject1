@@ -154,6 +154,12 @@ main {
 }
 
 
+header,
+main,
+footer {
+    flex-shrink: 0;
+}
+
 /* ----------------------------------------- Footer */
 
 footer {
@@ -161,12 +167,6 @@ footer {
     min-height: 120px;
     margin: 0;
     color: #550000;
-}
-
-header,
-main,
-footer {
-    flex-shrink: 0;
 }
 
 .general-sub {
@@ -182,6 +182,11 @@ footer {
 }
 
 .back-to-top {
+    font-family: "Oxygen", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 20px;
+    color: #FFAAAA ;
     transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
@@ -189,8 +194,13 @@ footer {
     text-decoration: none;
 }
 
+.back-to-top h5 {
+    margin-top: 20px;
+}
+
 .back-to-top:hover {
-    color: #053961;  
+    color: #053961;
+    text-decoration: none;
 }
 
 .righted {
@@ -268,11 +278,6 @@ footer {
     color: #550000;
 }
 
-.who-we-are h2 {
-    font-family: "Oxygen", sans-serif;
-    font-size: 32px;
-    margin-top: 25px;
-}
 
 .who-we-are p {
     font-family: "Ubuntu", sans-serif;
@@ -283,4 +288,10 @@ footer {
 
 .main-icon {
     font-size: 32px;
+}
+
+.main-heading {
+    font-family: "Oxygen", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
 }
