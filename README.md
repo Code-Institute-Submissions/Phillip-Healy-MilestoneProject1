@@ -66,10 +66,20 @@ I made sure that for tablets and mobile the site would collapse and flow for the
 Icons are dropped to avoid crowding, and columns are made widers and stack on top of each other with new margins to allow for readability. 
 Images also move and resize to not block content or overflow off the screen.
 
+This was tested in chromes dev tools, on mozilla firefox, edge, on 3 android devices (2 mobile, 1 tablet), and was sent to 6 firends.
+
 ## Deployment
 
 #### Github Pages
-I deployed this project on Github Pages, the process was to simply follow the settings and it practically launched itself. 
+I deployed this project on Github Pages, the process was as follows:
+
+- Naming the repository correctly; If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right.
+- On the Github repo; go to settings.
+- selected branch to deploy (master)
+- Selected theme (Hack)
+- Allowed for public viewing in (manage access)
+- Looked over other settings, left as default.
+- Saved and deployed.
 
 ## Credits
 ### Content
